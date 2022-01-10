@@ -30,8 +30,8 @@ public class Unternehmen {
         return un;
     }
 
-    public void setAnz(Integer anz) {
-        this.anz = anz;
+    public Integer getAnz() {
+        return anz;
     }
 
     public Integer getEK() {
@@ -52,6 +52,10 @@ public class Unternehmen {
 
     public void setUn(Unternehmensgröße un) {
         this.un = un;
+    }
+
+    public void setAnz(Integer anz) {
+        this.anz = anz;
     }
 
     public void setEK(Integer EK) {
@@ -75,5 +79,4 @@ public class Unternehmen {
                 '}';
     }
 }
-
 
